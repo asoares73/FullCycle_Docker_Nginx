@@ -32,7 +32,6 @@ Essa imagem Docker, ao ser executada, entrega uma resposta simples e poderosa:
 1. Clone o repositório:
    ```bash
    git clone https://github.com/asoares73/FullCycle_Docker_Nginx.git
-   cd seu-repo
 
 ---
 
