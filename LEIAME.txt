@@ -1,0 +1,19 @@
+# 1. Realizar o build da imagem
+docker-compose up --build -d
+
+# 2. Verificar se os containers estão ativos
+docker ps
+
+# 3. Verificar se foram reportados erros em algum dos containers
+docker logs app
+docker logs nginx
+docker logs db
+
+# 4. Caso precise alterar alguma configuração execute o comando abaixo 
+#    ele irá encerrar e remove todos os containers, redes, volumes e imagens
+docker-compose down --volumes --remove-orphans
+
+# 5. Acesse a aplicação e valide a mesma a partir da url:
+http://localhost:8087
+
+# 6. Suba o seu projeto para o seu GitHub
