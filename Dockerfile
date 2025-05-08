@@ -27,9 +27,10 @@ FROM node:18
 WORKDIR /usr/src/app
 
 # Copia todos os arquivos do host
+COPY . .
 COPY ./node/ .
 RUN npm install
-COPY . .
+
 
 # Instalar o dockerize
 ENV DOCKERIZE_VERSION v0.6.1
