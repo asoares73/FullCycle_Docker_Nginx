@@ -1,0 +1,5 @@
+# Ignorar dependências do Node.js
+node_modules/
+
+# Ignorar pasta de banco de dados MySQL (ex: dados ou dumps locais)
+mysql/
